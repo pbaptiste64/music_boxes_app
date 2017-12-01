@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.instrument{
+    /*border: 3px solid black;*/
+    display: flex;
+    height: 150px;
+    width: 56%;
+
+}
+
+.box{
+    border:3px solid black;
+    width: 130px;/*7*/
+    height: 100%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 99px;/*6*/
+    display: table-cell;/*5*/
+    vertical-align: middle;/*4*/
+    text-align: center; /*3*/
+    font-weight: bold; /*2*/
+    font-family: 'Philosopher', sans-serif; /*1*/
+    
+    
+    
+    
+}
+
+.box:hover{ /*8*/
+    box-shadow: 4px 6px 20px; 
+    color:white;
+            
+}
+
+html{
+    background-color: black; /*9*/
+
+}
+
+#c{
+    background-color: yellow; /*10 (there are more then 10 changes)*/
+    font-size: 50px;
+    margin-top: 380px;
+    width: 130px;
+    
+}
+#d{
+    background-color: orange;
+    font-size: 50px;
+    margin-top: 320px;
+    
+}
+#e{
+    background-color: purple;
+    font-size: 50px;
+    margin-top: 260px;
+}
+#f{
+    background-color: green;
+    font-size: 50px;
+    margin-top: 200px;
+}
+#g{
+    background-color: blue;
+    font-size: 50px;
+    margin-top: 140px; 
+}
+#a{
+    background-color: red; 
+    font-size: 50px;
+    margin-top: 80px;
+}
+#b{
+    background-color: pink;
+    font-size: 50px;
+    margin-top: 20px;
+    
+}
